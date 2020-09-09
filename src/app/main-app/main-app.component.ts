@@ -16,7 +16,6 @@ import { Film } from './film';
       </app-list-of-films>
       <app-list-of-favorites
         [filmsArray]="films"
-        [(locStor)] = "ls"
         *ngIf="openedContent"
         class="content">
       </app-list-of-favorites>
@@ -32,6 +31,8 @@ export class MainAppComponent implements OnInit {
   films: Film[] = [];
   constructor(private httpService: HttpService, private http: HttpClient){
   }
+  // Для выполнения get-запроса у объекта HttpClient вызывается метод get(),
+  // в который передается адрес запроса
   ngOnInit(): void{
     this.httpService.getFilms().subscribe(data => {
       this.films = data[ "filmList" ];
