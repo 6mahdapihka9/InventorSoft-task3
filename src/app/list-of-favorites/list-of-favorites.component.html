@@ -1,0 +1,15 @@
+<div class="summery">
+  <h2>Summery price: {{sum}}</h2>
+  <button (click)="removeAll()">Remove all films</button>
+</div>
+<ng-container *ngFor="let film of filmsArray">
+  <div class="content-item" *ngIf="isFav(film.id)">
+    <img [srcset]="film.image" alt="">
+    <div class="content-item-data">
+      <p>Name: {{film.name}}</p>
+      <p>Description: {{film.description}}</p>
+      <p>Price: {{film.price}}$</p>
+      <button class="removeFromFav" (click)="removeFromFav(film.id)">Remove from favourite</button>
+    </div>
+  </div>
+</ng-container>

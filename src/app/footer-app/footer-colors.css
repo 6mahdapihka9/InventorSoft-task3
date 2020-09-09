@@ -1,0 +1,10 @@
+footer {
+  background: linear-gradient(#02004e 0%, black 100%);
+}
+
+footer a, footer p {
+  color: #f3ff9e;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=footer-colors.css.map */

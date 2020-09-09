@@ -1,0 +1,18 @@
+.burgerMenu span {
+  background-color: #f3ff9e;
+}
+
+#social-media {
+  background-color: black;
+}
+
+header a, header p {
+  color: #f3ff9e;
+  text-decoration: none;
+}
+
+header ul li a::before, header ul li a:hover::before, header ul li a::after, header ul li a:hover::after, header .social-media a::before, header .social-media a:hover::before, header .social-media a::after, header .social-media a:hover::after {
+  background-color: #f3ff9e;
+}
+
+/*# sourceMappingURL=header-colors.css.map */
