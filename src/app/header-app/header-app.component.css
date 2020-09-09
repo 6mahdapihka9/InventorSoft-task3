@@ -1,0 +1,29 @@
+/* Header styles */
+header{
+  width: 100%;
+  height: 4em;
+  position: fixed;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+a img{
+  margin: 15px;
+  width: 30px;
+}
+header ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+}
+header li{
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  width: 160px;
+}

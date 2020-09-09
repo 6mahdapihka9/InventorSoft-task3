@@ -1,0 +1,26 @@
+main{
+  padding: 100px 200px 100px 200px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  padding: 15px;
+  background-color: rgba(255,255,255,0.7);
+  border: 1px solid #282828;
+  border-radius: 15px;
+}
+app-list-of-films, app-list-of-favorites{
+  min-height: 300px;
+}
+/* Responsive Styles */
+@media (min-width: 767px) {
+  main {
+    padding: 100px 200px 100px 200px;
+  }
+}
+@media (max-width: 767px) {
+  main {
+    padding: 20px !important;
+  }
+}

@@ -1,0 +1,26 @@
+<div id="top"></div>
+
+<header ngOnInit>
+
+  <div id="burgerMenu" class="burgerMenu" (click)="openBurger()">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div id="social-media" class="social-media">
+    <a href="https://www.youtube.com/"><img src="../../assets/img/youtube.png" alt="youtube">YouTube</a>
+    <a href="https://www.facebook.com/"><img src="../../assets/img/facebook.png" alt="facebook">FaceBook</a>
+    <a href="https://vk.com/"><img src="../../assets/img/vk.png" alt="vk">VK</a>
+    <a href="https://twitter.com/"><img src="../../assets/img/twitter.png" alt="twitter">Twitter</a>
+    <a href="https://www.tumblr.com/"><img src="../../assets/img/tumblr.png" alt="tumblr">Tumblr</a>
+  </div>
+  <script src="script.js"></script>
+
+  <ul class="headerSection">
+    <li><a (click)="openContent(false)" >Catalog</a></li>
+    <li><a (click)="openContent(true)" >Favourites</a></li>
+  </ul>
+
+</header>

@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0
+}
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  cursor: pointer;
+}
+h2, p {
+  color: #f3ff9e;
+  text-shadow: black 0 0 5px ;
+}

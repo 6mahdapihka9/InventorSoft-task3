@@ -1,0 +1,74 @@
+{
+  "filmList": [
+    {
+      "id": 0,
+      "name": "Hauru no ugoku shiro",
+      "description": "Драмы, Приключения, Романтические, Сказки",
+      "price": 20.00,
+      "image": "https://static.hdrezka.ac/i/2013/12/6/vf77d254dc1e2au48b43e.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Sen to Chihiro no kamikakushi",
+      "description": "Драмы, Приключения, Сказки",
+      "price": 18.0,
+      "image": "https://static.hdrezka.ac/i/2013/12/10/i5e6aa48e0e9ajq45e64q.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tenkû no shiro Rapyuta / Castle in the Sky Laputa",
+      "description": "Приключения, Романтические, Сказки",
+      "price": 17.50,
+      "image": "https://static.hdrezka.ac/i/2014/12/1/k65f333a4f100pt27u80b.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Tonari no Totoro",
+      "description": "Драмы, Комедии, Приключения, Сказки",
+      "price": 16.00,
+      "image": "https://static.hdrezka.ac/i/2014/4/7/i91df37e3d682re40j74w.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Mononoke-hime",
+      "description": "Драмы, Фэнтези, Приключения",
+      "price": 15.00,
+      "image": "https://static.hdrezka.ac/i/2014/4/7/rc74480c94202mz71m79b.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Majo no takkyûbin",
+      "description": "Драмы, Комедии, Приключения, Сказки",
+      "price": 13.00,
+      "image": "https://static.hdrezka.ac/i/2014/12/1/d5cb08a4375d0tr70g12a.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Kaze tachinu",
+      "description": "Драмы, Исторические",
+      "price": 12.50,
+      "image": "https://static.hdrezka.ac/i/2014/3/27/g03a76493cff0we82k38l.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Gake no ue no Ponyo",
+      "description": "Приключения, Повседневность, Сказки",
+      "price": 11.00,
+      "image": "https://static.hdrezka.ac/i/2014/12/19/vd4c83919112eks74e43d.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Kurenai no buta",
+      "description": "Комедии, Приключения, Исторические",
+      "price": 10.00,
+      "image": "https://static.hdrezka.ac/i/2014/12/1/vecdb9173a5acco82z57t.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Kaze no tani no Naushika",
+      "description": "Драмы, Фантастика, Фэнтези, Приключения",
+      "price": 7.50,
+      "image": "https://static.hdrezka.ac/i/2014/12/1/m7231348fbfd8vy33e90t.jpg"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+.burgerMenu {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+}
+.burgerMenu span {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 5px;
+  transition: all 1s;
+}
+.burgerMenu span:first-child {
+  top: 10px;
+}
+.burgerMenu span:nth-child(2) {
+  top: 20px;
+  height: 2px;
+}
+.burgerMenu span:nth-child(3) {
+  top: 28px;
+  height: 2px;
+}
+.burgerMenu span:last-child {
+  top: 35px;
+}
+
+.burgerMenu-opened span:first-child {
+  transform: rotate(45deg);
+  top: 25px;
+  transition: top 1s, transform 1s;
+}
+.burgerMenu-opened span:nth-child(2) {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.burgerMenu-opened span:nth-child(3) {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.burgerMenu-opened span:last-child {
+  transform: rotate(-45deg);
+  top: 25px;
+  transition: top 1s, transform 1s;
+}
+
+header ul li a::before, header ul li a:hover::before, header ul li a::after, header ul li a:hover::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 1px;
+  transition: all 1s;
+}
+header .social-media a::before, header .social-media a:hover::before, header .social-media a::after, header .social-media a:hover::after {
+  content: "";
+  position: relative;
+  display: block !important;
+  height: 1px;
+  transition: width 1s, transform 1s;
+}
+
+header ul li a::before, header ul li a:hover::before {
+  top: -5px;
+}
+header ul li a::after, header ul li a:hover::after {
+  top: 5px;
+}
+header ul li a::before, header ul li a::after {
+  transform: scaleX(0);
+}
+header ul li a:hover::before, header ul li a:hover::after {
+  transform: scaleX(1) !important;
+}
+
+.social-media {
+  position: absolute;
+  height: 300px;
+  width: 0;
+  visibility: hidden;
+  top: 50px;
+  left: -200px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 1s;
+}
+.social-media a {
+  display: flex;
+  align-items: center;
+}
+.social-media a::after {
+  margin-left: 15px;
+}
+.social-media a::before, .social-media a::after {
+  width: 0;
+  transform: scaleX(0);
+}
+.social-media a:hover::before, .social-media a:hover::after {
+  width: 100%;
+  transform: scaleX(1) !important;
+}
+
+.social-media-opened {
+  left: 0;
+  width: 200px;
+  visibility: visible;
+  transition: width 1s, visibility 1s, left 1s;
+}
+
+/*# sourceMappingURL=burgerMenuAnimation.css.map */
