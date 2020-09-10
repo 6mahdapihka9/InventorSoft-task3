@@ -14,6 +14,7 @@ export class ListOfFavoritesComponent implements OnInit {
 
   ngOnInit(): void {
     this.ls = window.localStorage;
+    this.reCalc();
   }
   isFav(filmsId: number): boolean{
     return (this.ls.getItem('' + filmsId) !== null);

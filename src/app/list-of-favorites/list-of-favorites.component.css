@@ -19,6 +19,7 @@
 .content-item-data{
   position: relative;
   padding-left: 30px;
+  padding-bottom: 50px;
 }
 .content-item-data > p,.content-item-data > button, .summery > h2, .summery > button{
   margin-top: 10px;

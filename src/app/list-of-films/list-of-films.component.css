@@ -13,6 +13,7 @@
 .content-item-data{
   position: relative;
   padding-left: 30px;
+  padding-bottom: 50px;
 }
 .content-item-data > p,.content-item-data > button{
   padding-top: 10px;

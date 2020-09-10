@@ -36,7 +36,7 @@ export class MainAppComponent implements OnInit {
   ngOnInit(): void{
     this.httpService.getFilms().subscribe(data => {
       this.films = data[ "filmList" ];
-      console.log(this.films);
+      // console.log(this.films);
     });
     // this.http.get('./main-app/film')._subscribe((data: Film) => this.film = data);
     // this.filmsArr = this.httpService.getFilms();
